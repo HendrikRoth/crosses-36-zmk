@@ -75,6 +75,14 @@ parse_config:
     "&none":
       tap: $$mdi:minus-circle-outline$$
       type: none
+    "&de_ae":
+      tap: ä
+    "&de_oe":
+      tap: ö
+    "&de_ue":
+      tap: ü
+    "&de_ss":
+      tap: ß
     "&bt BT_SEL 0":
       shifted: $$mdi:bluetooth-connect$$
       tap: ""
@@ -195,16 +203,18 @@ parse_config:
     TAB: $$mdi:keyboard-tab$$
     SPACE: $$mdi:keyboard-space$$
     BSPC: $$mdi:backspace$$
-    LCTRL: $$mdi:apple-keyboard-control$$
-    LALT: $$mdi:apple-keyboard-option$$
-    LSHIFT: $$mdi:apple-keyboard-shift$$
-    LSHFT: $$mdi:apple-keyboard-shift$$
-    LCMD: $$mdi:apple-keyboard-command$$
-    RCTRL: $$mdi:apple-keyboard-control$$
-    RALT: $$mdi:apple-keyboard-option$$
-    RSHIFT: $$mdi:apple-keyboard-shift$$
-    RSHFT: $$mdi:apple-keyboard-shift$$
-    RCMD: $$mdi:apple-keyboard-command$$
+    LCTRL: Ctrl
+    LALT: Opt
+    LSHIFT: Shift
+    LSHFT: Shift
+    LCMD: Cmd
+    LGUI: Cmd
+    RGUI: Cmd
+    RCTRL: Ctrl
+    RALT: Opt
+    RSHIFT: Shift
+    RSHFT: Shift
+    RCMD: Cmd
     UP: $$mdi:arrow-up-bold$$
     DOWN: $$mdi:arrow-down-bold$$
     LEFT: $$mdi:arrow-left-bold$$
