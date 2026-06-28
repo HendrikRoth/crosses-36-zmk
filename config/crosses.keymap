@@ -175,3 +175,10 @@
         };
     };
 };
+
+// Auto-activate the mouse layer (3) while the right trackball moves, so the
+// mouse buttons on that layer are available without holding a layer key.
+// Keep the shield's report-rate-limit processor. Timeout in ms is tunable.
+&trackball_central_listener {
+    input-processors = <&zip_ble_report_rate_limit>, <&zip_temp_layer 3 250>;
+};
